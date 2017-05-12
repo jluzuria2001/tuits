@@ -13,10 +13,10 @@ path = "/home/user/Downloads/twitter_app/twitter_data.json"
 def start_mining():
 
     #Twitter API credentials
-    access_token="838889260862287873-u6euWQmmwa5L5iq9SQOIGyS0YEY45X1"
-    access_token_secret="swSCZ0VQfcUSZWIiF1GhRuTx7qCp0UA4cVNgHDQoWzYmy"
-    consumer_key="cibxA1ldS1l4DezpvBlcFV5fK"
-    consumer_secret="kkMidtUj5Oy7icTMhT5AfRperYfrPsziF2CPNSdjWPCY1FBmlZ"
+    access_token="838889260862287873-u6euWQmmwa5L5iq9SQOIGyS0YEY1234"
+    access_token_secret="swSCZ0VQfcUSZWIiF1GhRuTx7qCp0UA4cVNgHDQoW1234"
+    consumer_key="cibxA1ldS1l4DezpvBlcF1234"
+    consumer_secret="kkMidtUj5Oy7icTMhT5AfRperYfrPsziF2CPNSdjWPCY1F1234"
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
